@@ -8,9 +8,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608 # v4
     - name: Setup .NET
-      uses: actions/setup-dotnet@v1
+      uses: actions/setup-dotnet@3e891b0cb619f3d73b6f8f4a75f142f4add93fb0 # v4
       with:
         dotnet-version: '8.0.x'
         include-prerelease: true
